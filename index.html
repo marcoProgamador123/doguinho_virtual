@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script src="Food.js"></script>
+    <script>
+      // Import the functions you need from the SDKs you need
+      //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      /*const firebaseConfig = {
+        apiKey: "AIzaSyBaTNP3bQMnaagAKwlFeJbo-J_CiIa2Opc",
+        authDomain: "jogo-de-carros-multiplay-f11ef.firebaseapp.com",
+        databaseURL: "https://jogo-de-carros-multiplay-f11ef-default-rtdb.firebaseio.com",
+        projectId: "jogo-de-carros-multiplay-f11ef",
+        storageBucket: "jogo-de-carros-multiplay-f11ef.appspot.com",
+        messagingSenderId: "514883105729",
+        appId: "1:514883105729:web:540c7920cbd9e055b93540"
+      };*/
+    
+     /* const firebaseConfig = {
+  apiKey: "AIzaSyCW9yqRaL441q4QGZHhzhL8JXvGdkjRYqE",
+  authDomain: "jogo-de-corrida-multiplayer.firebaseapp.com",
+  databaseURL: "https://jogo-de-corrida-multiplayer-default-rtdb.firebaseio.com",
+  projectId: "jogo-de-corrida-multiplayer",
+  storageBucket: "jogo-de-corrida-multiplayer.appspot.com",
+  messagingSenderId: "986940610858",
+  appId: "1:986940610858:web:9d0dec7544dae25f3fe653"
+};*/
+const firebaseConfig = {
+    apiKey: "AIzaSyCBi5pLKyO9IbHk7EpA2WveBKddLwqM7WA",
+    authDomain: "doguinho-virtual.firebaseapp.com",
+    databaseURL: "https://doguinho-virtual-default-rtdb.firebaseio.com",
+    projectId: "doguinho-virtual",
+    storageBucket: "doguinho-virtual.appspot.com",
+    messagingSenderId: "964987891928",
+    appId: "1:964987891928:web:12a61d578f08681fa8e7ad"
+  };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
